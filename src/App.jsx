@@ -8,6 +8,7 @@ function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<Layout/>} >
+        <Route path="" element={<Hero/>} />
         <Route path="about" element={<About/>} />
       </Route>
     )

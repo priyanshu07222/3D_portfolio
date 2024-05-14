@@ -23,9 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
-} from "../assets";
+} from "../assets/assets";
 
-export const navLinks = [
+const navLinks = [
     {
         id: "about",
         title: "About",
@@ -262,4 +262,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, navLinks };
